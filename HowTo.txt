@@ -1,0 +1,13 @@
+https://blog.logrocket.com/using-linaria-faster-css-in-js-react-apps/
+
+installed webpack-cli
+installed linaria modules
+npm install @linaria/core @linaria/react @linaria/babel-preset @linaria/webpack-loader
+
+added webpack.config.js
+added .babelrc
+
+
+Step 1: Create starting React app:
+		- Create index.html
+		- create a css, js file
