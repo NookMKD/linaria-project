@@ -1,0 +1,7 @@
+zero runtime
+mutabilnost dokolku se smeni da se smeni vo runtim
+dinamicki 
+sporedma so js i linaria
+promena real time dali ima
+vlecenje imdb api sliki i nivno loadiranje i ne
+block post kon dev na linaria

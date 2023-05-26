@@ -1,14 +1,15 @@
 {
     "employees": [
       {
-        "id": 1,
+        "id": 1331562,
         "first_name": "John",
         "last_name": "Doe",
         "email": "johndoe@abc.com",
         "gender": "Male",
         "status": "Terminated",
         "img":"/img/img_male_avatar.png"
-
+        ,
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
         "id": 2,
@@ -17,7 +18,8 @@
         "email": "janedoe@abc.com",
         "gender": "Female",
         "status": "New",
-        "img":"/img/img_female_avatar.png"
+        "img":"/img/img_female_avatar.png",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
         "id": 3,
@@ -26,7 +28,8 @@
         "email": "alicedoe@abc.com",
         "gender": "Female",
         "status": "Leaving",
-        "img":"/img/img_female_avatar.png"
+        "img":"/img/img_female_avatar.png",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
         "id": 4,
@@ -35,7 +38,8 @@
         "email": "bobdoe@abc.com",
          "gender": "Male",
         "status": "Active",
-        "img":"/img/img_male_avatar.png"
+        "img":"/img/img_male_avatar.png",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
         "id": 5,
@@ -44,7 +48,8 @@
         "email": "markdoe@abc.com",
          "gender": "Male",
         "status": "Active",
-        "img":"/img/img_male_avatar.png"
+        "img":"/img/img_male_avatar.png",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
         "id": 6,
@@ -53,7 +58,8 @@
         "email": "marydoe@abc.com",
         "gender": "Female",
         "status": "Leaving",
-        "img":"/img/img_female_avatar.png"
+        "img":"/img/img_female_avatar.png",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       }
       ,{
         "id": 7,
@@ -62,7 +68,8 @@
         "email": "johndoe@abc.com",
         "gender": "Male",
         "status": "Terminated",
-        "img":"/img/img_male_avatar.png"
+        "img":"/img/img_male_avatar.png",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
       },
       {
@@ -72,7 +79,8 @@
         "email": "janedoe@abc.com",
         "gender": "Female",
         "status": "New",
-        "img":"/img/img_female_avatar.png"
+        "img":"/img/img_female_avatar.png",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },{
         "id": 9,
         "first_name": "John",
@@ -80,7 +88,8 @@
         "email": "johndoe@abc.com",
         "gender": "Male",
         "status": "Terminated",
-        "img":"/img/img_male_avatar.png"
+        "img":"/img/img_male_avatar.png",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
       },
       {
@@ -90,7 +99,8 @@
         "email": "janedoe@abc.com",
         "gender": "Female",
         "status": "New",
-        "img":"/img/img_female_avatar.png"
+        "img":"/img/img_female_avatar.png",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
         "id": 11,
@@ -99,7 +109,8 @@
         "email": "alicedoe@abc.com",
         "gender": "Female",
         "status": "Leaving",
-        "img":"/img/img_female_avatar.png"
+        "img":"/img/img_female_avatar.png",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
         "id": 12,
@@ -108,7 +119,8 @@
         "email": "bobdoe@abc.com",
          "gender": "Male",
         "status": "Active",
-        "img":"/img/img_male_avatar.png"
+        "img":"/img/img_male_avatar.png",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       }
       
     ]

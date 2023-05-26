@@ -1,8 +1,10 @@
-// import './App.css';
+
 import axios from "axios";
 import { css } from '@linaria/core';
 import { useEffect, useState } from 'react';
 import { styled } from '@linaria/react';
+import {  Link, Routes, Route, useParams, } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 /////////////////////////////////////
@@ -32,10 +34,13 @@ const theming = cb =>
 
 const Employeecontainer = styled.div`
   width: 100%;
+  height: 700px;
   font-size: 10px;
   font-weight: bold;
   display: inline-block;
   background: #fedc97
+  overflow-y:scroll
+  
   `;
 
 const Logo = styled.p`
@@ -51,16 +56,17 @@ const employee = css`
   color: black;
   height 300px;
   width 400px;
-  margin: 20px
+  margin: 18px
   border: solid black 2px
   border-radius: 5%;
   padding: 15px;
   background: white;
+  text-decoration:none;
+
   &:hover{
     color: white
     border: 2px solid black;
     background: #033f63
-
   }
 `
 
@@ -71,8 +77,10 @@ display: flex;
 background: #033f63
 `
 const Title = styled.div`
+position: relative;
 color: White
 margin: auto
+left: -50px
 font-weight: bold
 font-size: 35px
 `
@@ -108,25 +116,38 @@ function App() {
   const users = userData.map((data,id)=>{
     return (
     
-    <div className={employee} key={id}>
+    <Link to={`Details/${data.id}`} className={employee} key={id}>
       <Imgbox><img className={employeeImg} src={data.img}></img></Imgbox>
-      
       <p>{data.first_name} {data.last_name}</p>
       <p>{data.email}</p>
+      <Routes>
+        < Route path="/:data.id" element={<Details />} />
+      </Routes>
+
       
-    </div>
+    </Link>
     )
   })
-
 
   return (    
     <div className='App'>      
         <Topbar><Logo>N∞K</Logo><Title>Meet The Team</Title></Topbar>
           <Employeecontainer background="">
-            <Header>{users} </Header>    
+            <Header> {users} </Header>    
           </Employeecontainer>       
     </div>
   );    
 }
+
+
+function Details() {
+  const [user, setUser] = React.useState(null)
+  const { handle } = useParams()
+
+  React.useEffect(() => {
+    getDetails(handle)
+      .then(setUser)
+  }, [handle])    
+  }
 
 export default App;
